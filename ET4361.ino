@@ -190,13 +190,13 @@ void loop(){
         count=count-choose.price;
         choose.amount=choose.amount-1;
         switch (choose.tag){
-          case '1':
+          case 1:
             no1.amount=choose.amount;
             break;
-          case '2':
+          case 2:
             no2.amount=choose.amount;
             break;
-          case '3':
+          case 3:
             no3.amount=choose.amount;
             break;
         }
